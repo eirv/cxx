@@ -1,0 +1,5 @@
+#pragma once
+
+#include <__verbose_abort>
+
+#define _LIBCPP_ASSERTION_HANDLER(x) _LIBCPP_VERBOSE_ABORT(x)
